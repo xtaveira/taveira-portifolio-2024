@@ -4,7 +4,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className="flex justify-center lg:justify-evenly items-center bg-red-500 py-10">
+    <section className="flex justify-center lg:justify-evenly items-center py-10">
       <div className="flex flex-col gap-4 items-center">
         <div className="
         lg:w-[700px]
