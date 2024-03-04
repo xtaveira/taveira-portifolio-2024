@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Navbar = () => {
+const Navbar = ({ about, projects, contact }) => {
     return (
         <nav className="flex p-5 sm:px-10 md:justify-end items-center justify-center gap-10">
 
@@ -14,7 +14,7 @@ const Navbar = () => {
                     height={500}
                 />
             </div>
-            <div>about</div>
+            <div><a href=''>about</a></div>
             <div>projects</div>
             <div>contact</div>
         </nav>
