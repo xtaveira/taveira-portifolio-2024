@@ -19,16 +19,16 @@ const Projects = () => {
       </div>
       <div className="w-[90%]  rounded-lg flex flex-col justify-between items-center mb-5">
         <div className="w-[90%] h-full flex justify-center  my-4">
-          <div className="w-[70%]  h-[100%] flex justify-between flex-col items-center my-10 gap-5 cardProject">
-            <div className="flex justify-center items-center  w-[90%] h-[100%]  ">
-              <Image className="w-[50%] h-auto rounded-lg"
+          <div className="w-[90%]  h-[100%] flex justify-between flex-col items-center my-10 gap-5 cardProject">
+            <div className="flex justify-center items-center  w-[100%] h-[100%] ">
+              <Image className="sm:w-[70%] xl:w-[40%] lg:w-[60%]  w-[100%]  h-[400px] rounded-lg"
                 src={projects[project].src}
                 width={400}
                 height={400}
                 alt="Imagem do Projeto"
               />
             </div>
-            <div className="items-center  w-full justify-center h-full flex flex-col gap-3">
+            <div className="items-center text-center  w-full justify-center h-full flex flex-col gap-3">
               <h2 className="font-bold text-lg">{projects[project].title}</h2>
               <p>{projects[project].description}</p>
             </div>
