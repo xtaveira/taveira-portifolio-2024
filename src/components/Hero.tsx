@@ -17,24 +17,28 @@ const Hero = () => {
         "
         >
           <p>
-            Welcome, I'm Davi Taveira and will be a pleasure to solve your
-            problem. I am the Web Developer that you need.
+            Transformamos ideias em realidade digital. Somos uma equipe
+            apaixonada por desenvolvimento web, fornecendo soluções
+            personalizadas e inovadoras para impulsionar o sucesso online dos
+            nossos clientes.
           </p>
         </div>
         <div className="w-full flex justify-end px-10 text-lg lg:text-2xl">
-          <button className="bg-[#d9d9d9] rounded-md px-3">let's talk</button>
+          <button className="bg-[--primary] hover:border-black hover:border-2 text-white rounded-md px-5 py-1">
+            entre em contato!
+          </button>
         </div>
       </div>
       <div
         className=" 
       xl:w-[500px] xl:h-[500px] 
-      md:flex hidden  bg-[#d9d9d9] 
+      md:flex hidden  bg-[--primary] 
       w-[300px] h-[300px]
       rounded-full  justify-center items-center"
       >
         <Image
           className="rounded-full"
-          alt="Davi Taveira Profile"
+          alt="Logo TVR Web"
           src="/TaveiraProfile.png"
           width={500}
           height={500}

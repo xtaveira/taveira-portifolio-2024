@@ -4,20 +4,20 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="flex p-5 sm:px-10 md:justify-end items-center justify-center gap-10">
-      <div className="md:hidden flex bg-[--primary] rounded-full items-center w-[40px] h-[40px]">
+      <div className="md:hidden flex bg-[--primary] rounded-lg items-center w-[3rem] h-[3rem]">
         <Image
           className="rounded-full"
           alt="Davi Taveira Profile"
-          src="/TaveiraProfile.png"
+          src="/LogoPNG.svg"
           width={500}
           height={500}
         />
       </div>
       <div>
-        <a href="">about</a>
+        <a href="">sobre</a>
       </div>
-      <div>projects</div>
-      <div>contact</div>
+      <div>projetos</div>
+      <div>contato</div>
     </nav>
   );
 };
